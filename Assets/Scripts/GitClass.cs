@@ -15,6 +15,13 @@ public class GitClass : MonoBehaviour
         if (myPower < 9000)
 		{
 			print("Power overwhelming!");
+    	}
+    
+		print("Hola, ladies and gentlemen. I am " + myName);
+		
+        if (myPower > 1)
+		{
+			print("And I will play for you a spanish guitar!");
 		}
     }
 
