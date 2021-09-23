@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class GitClass : MonoBehaviour
 {
-	string myName = "Git";
-	int myPower = 9001;
+	string myName = "Mohammed Ockba";
+	int myPower = 500;
+    //To display/hide the instruction message
+    public GameObject textInstruction;
 	
     // Start is called before the first frame update
     void Start()
@@ -16,11 +18,24 @@ public class GitClass : MonoBehaviour
 		{
 			print("It's over 9000!!!");
 		}
+        else
+        {
+            print("The power value is acceptable!");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        //The action gets activated if you press on the space bar
+        if(Input.GetKeyDown("space"))
+        {
+            //Destroy the origanl image
+            Destroy(gameObject);
+
+            //Hide the instruction message
+            textInstruction.SetActive(false);
+        }
         
     }
 }
