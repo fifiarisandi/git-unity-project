@@ -10,11 +10,18 @@ public class GitClass : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		print("Hello! My name is " + myName);
+		print("Who is aswesome?:" + myName);
 		
-        if (myPower > 9000)
+        if (myPower < 9000)
 		{
-			print("It's over 9000!!!");
+			print("Power overwhelming!");
+    	}
+    
+		print("Hola, ladies and gentlemen. I am " + myName);
+		
+        if (myPower > 1)
+		{
+			print("And I will play for you a spanish guitar!");
 		}
     }
 
