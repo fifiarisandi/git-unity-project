@@ -6,6 +6,7 @@ public class GitClass : MonoBehaviour
 {
 	string myName = "MertProject";
 	int myPower = 1000;
+    bool niceGuitar = false;
 	
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,7 @@ public class GitClass : MonoBehaviour
         if (myPower > 1)
 		{
 			print("And I will play for you a spanish guitar!");
+            niceGuitar = true;
 		}
     }
 
