@@ -16,6 +16,8 @@ public class GitClass : MonoBehaviour
 		{
 			print("Power overwhelming!");
     	}
+
+        if(myPower > 3000) SwitchPlayMode('difficult');
     
 		print("Hola, ladies and gentlemen. I am " + myName);
 		
@@ -23,6 +25,29 @@ public class GitClass : MonoBehaviour
 		{
 			print("And I will play for you a spanish guitar!");
 		}
+    }
+
+    void SwitchPlayMode(string mode)
+    {
+
+        switch(mode){
+            case "easy":
+                print("Switching to easy mode");
+            break;
+
+            case "medium":
+                print("Switching to medium mode");
+            break;
+
+            case "difficult":
+                print("Switching to difficult mode");
+            break;
+
+            default: 
+                print("Mode is not recognised");
+            break;
+        }
+        
     }
 
     // Update is called once per frame
