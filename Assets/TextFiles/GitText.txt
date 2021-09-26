@@ -7,6 +7,7 @@ Git is (just added this part to modify the text) easy to learn and has a tiny fo
 hello git. 
 GitHub is a Git repository hosting service, but it adds many of its own features. While Git is a command line tool, GitHub provides a Web-based graphical interface. It also provides access control and several collaboration features, such as a wikis and basic task management tools for every project.
 Could have more free storage space though...
+With github and other version control platforms that use git, we can also automate project deployment and testing using pipeline etc
 
 This is a new Line.
 Why hello there. I am currently modifying the existing text by adding more text. I don't have a lot to say right now, however. Have a nice weekend.
