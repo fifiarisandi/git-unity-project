@@ -4,30 +4,33 @@ using UnityEngine;
 
 public class GitClass : MonoBehaviour
 {
- 	string myName = "Mohammed Ockba";
-	int myPower = 500;
+	string myName = "Nathan";
+	int myPower = 9001;
+    int myLife = 10;
   	//To display/hide the instruction message
   	public GameObject textInstruction;
 	
     // Start is called before the first frame update
     void Start()
     {
+		print("Hello there, from " + myName);
 		print("Who doesn't know what they are doing but likes bonus points?:" + myName);
 		
-        if (myPower < 9000)
+        if (myPower > 9000)
 		{
-			print("Confusion overwhelming!");
+			print("It's over 9000 !");
     	}
-    
-		print("Tere, ladies and gentlemen. I am " + myName);
-		
-        if (myPower > 1)
-		{
-			print("And I will sing for you the song of my people!");
-		}
-        else
+		else
         {
             print("The power value is acceptable!");
+		}
+    
+		print("Bonjour, ladies and gentlemen. I am " + myName);
+		print("And I will play for you the baguette.");
+
+        if (myLife < 1)
+        {
+            print("oof");
         }
     }
 
