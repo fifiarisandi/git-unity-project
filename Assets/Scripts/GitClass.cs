@@ -21,7 +21,7 @@ public class GitClass : MonoBehaviour
 
         if(myPower > 3000)
 		{
-			SwitchPlayMode('difficult');
+			SwitchPlayMode("difficult");
 		}
    
 		print("Who is aswesome?:" + myName);
