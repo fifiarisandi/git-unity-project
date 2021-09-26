@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class GitClass : MonoBehaviour
 {
-	string myName = "Nathan";
-	int myPower = 9001;
+	string myName = "MertProject";
+	int myPower = 1000;
+    bool niceGuitar = false;
     int myLife = 10;
   	//To display/hide the instruction message
   	public GameObject textInstruction;
@@ -15,17 +16,18 @@ public class GitClass : MonoBehaviour
     {
 		print("Hello there, from " + myName);
 		print("Who doesn't know what they are doing but likes bonus points?:" + myName);
+		print("Bonjour, ladies and gentlemen. I am " + myName);
 		
-        if (myPower > 9000)
+        if (myPower > 1)
 		{
-			print("It's over 9000 !");
+			print("And I will play for you a spanish guitar!");
+            niceGuitar = true;
     	}
 		else
         {
             print("The power value is acceptable!");
 		}
-    
-		print("Bonjour, ladies and gentlemen. I am " + myName);
+    		
 		print("And I will play for you the baguette.");
 
         if (myLife < 1)
