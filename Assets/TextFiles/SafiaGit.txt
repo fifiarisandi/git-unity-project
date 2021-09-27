@@ -1,0 +1,7 @@
+﻿2- Clone the "git-unity-project" repository (second link), and do the following:
+Create a new branch from the 'main' branch and publish it to the remote repository.
+In that new branch, go to the Unity Assets folder, then Images folder, where the 'helloGit' image file is, and add another image of your choosing.
+Go to the TextFiles folder in the Assets folder, and in the GitText file change the text in there by adding to, modifying, or deleting the existing text.
+Commit your changes in your branch (don't forget to write meaningful/relevant commit messages).
+Push your changes to the remote repository
+Create a Pull Request to merge your changes to the 'main' branch
