@@ -14,20 +14,20 @@ public class GitClass : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (myPower < 9000)
+        if (myPower < 8000)
 		{
 			print("Power overwhelming!");
     	}
 
-        if(myPower > 3000)
+        if(myPower > 5000)
 		{
 			SwitchPlayMode("difficult");
 		}
-   
 		print("Who is aswesome?:" + myName);
 		print("Hello there, from " + myName);
 		print("Who doesn't know what they are doing but likes bonus points?:" + myName);
 		print("Bonjour, ladies and gentlemen. I am " + myName);
+		print("Who is here " + myName);
 		
         if (myPower > 1)
 		{
