@@ -1,4 +1,6 @@
-Hello World!
+Hello hello hello!
+
+What I'm doing ＼(〇_ｏ)／
 
 Welcome to Unity with Git!!!
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
