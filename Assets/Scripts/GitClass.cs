@@ -10,6 +10,7 @@ public class GitClass : MonoBehaviour
     int myLife = 10;
   	//To display/hide the instruction message
   	public GameObject textInstruction;
+    public GameObject ockbaImage;
 	
     // Start is called before the first frame update
     void Start()
@@ -45,6 +46,9 @@ public class GitClass : MonoBehaviour
         {
             print("oof");
         }
+        
+        //When starting the game the image is hidden
+        ockbaImage.SetActive(false);
     }
 
     void SwitchPlayMode(string mode)
@@ -74,11 +78,14 @@ public class GitClass : MonoBehaviour
         //The action gets activated if you press on the space bar
         if(Input.GetKeyDown("space"))
         {
+            GameObject obj;
             //Destroy the origanl image
             Destroy(gameObject);
-
+            //obj.setActive(false);
+            
             //Hide the instruction message
             textInstruction.SetActive(false);
+            ockbaImage.SetActive(true);
         }
         
     }
