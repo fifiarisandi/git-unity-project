@@ -6,6 +6,7 @@ public class GitClass : MonoBehaviour
 {
 	string myName = "MertProject";
 	int myPower = 1000;
+    int guitarWeight = 10;
     bool niceGuitar = false;
     int myLife = 10;
   	//To display/hide the instruction message
@@ -45,6 +46,11 @@ public class GitClass : MonoBehaviour
         {
             print("oof");
         }
+
+        if (guitarWeight >= 10)
+		{
+            Debug.Log("Too heavy to play!!");
+    	}
     }
 
     void SwitchPlayMode(string mode)
