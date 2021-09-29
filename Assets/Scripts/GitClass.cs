@@ -27,7 +27,8 @@ public class GitClass : MonoBehaviour
 		print("Hello there, from " + myName);
 		print("Who doesn't know what they are doing but likes bonus points?:" + myName);
 		print("Bonjour, ladies and gentlemen. I am " + myName);
-		print("Who is here " + myName);
+		print("Who is here?");
+		print("Patrick is here");
 		
         if (myPower > 1)
 		{
