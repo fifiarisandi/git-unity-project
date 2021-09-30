@@ -6,11 +6,16 @@ public class GitClass : MonoBehaviour
 {
 	string myName = "MertProject";
 	int myPower = 1000;
-    bool niceGuitar = false;
-    int myLife = 10;
+        bool niceGuitar = false;
+        int myLife = 10;		
   	//To display/hide the instruction message
   	public GameObject textInstruction;
-	
+	//
+        string gamePlayerName = "Shireen";
+	int numberOfLostGames =  2;
+        int numberOfWinGames =  12;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +50,14 @@ public class GitClass : MonoBehaviour
         {
             print("oof");
         }
+
+
+	if(numberOfWinGames ==12)
+        {
+          print(gamePlayerName+" "+numberOfLostGames);
+        }
+	
+	
     }
 
     void SwitchPlayMode(string mode)
