@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class GitClass : MonoBehaviour
 {
-	string myName = "MertProject";
-	int myPower = 1000;
+	string myName = "IDK";
+	int myPower = 9999;
     bool niceGuitar = false;
     int myLife = 10;
+    string myQuest = "Eat all apples";
   	//To display/hide the instruction message
   	public GameObject textInstruction;
 	
