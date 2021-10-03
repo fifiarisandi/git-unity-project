@@ -11,7 +11,8 @@ GitHub is a Git repository hosting service, but it adds many of its own features
 Could have more free storage space though...
 With github and other version control platforms that use git, we can also automate project deployment and testing using pipeline etc
 
-This is a new Line.
+This is a new Line and a new world.
+It is a nice day.
 Why hello there. I am currently modifying the existing text by adding more text. I don't have a lot to say right now, however. Have a nice weekend.
 Just added an image file.
 (╯°□°）╯︵ ┻━┻
