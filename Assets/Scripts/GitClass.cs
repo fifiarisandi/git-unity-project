@@ -43,7 +43,7 @@ public class GitClass : MonoBehaviour
 
         if (myLife < 1)
         {
-            print("oof");
+            print("meh");
         }
     }
 
