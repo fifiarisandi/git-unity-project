@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GitClass : MonoBehaviour
 {
-	string myName = "MertProject";
-	int myPower = 1000;
+	string myName = "Power Dash";
+	int myPower = 500;
     bool niceGuitar = false;
     int myLife = 10;
   	//To display/hide the instruction message
@@ -16,7 +16,7 @@ public class GitClass : MonoBehaviour
     {
         if (myPower < 8000)
 		{
-			print("Power overwhelming!");
+			print("Super Power!");
     	}
 
         if(myPower > 5000)
